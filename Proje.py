@@ -6,8 +6,6 @@ output: [1,'a','cat',2,3,'dog',4,5]
 
 Çözüm:
 
-```
-    
 l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 
 flattenList = []
@@ -23,7 +21,7 @@ def flatten(listX):
 l = flatten(l)
 print(l)
 
-```
+---
 
 2- Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün. Örnek olarak:
 
@@ -33,7 +31,7 @@ output: [[[7, 6, 5], [4, 3], [2, 1]]
 
 Çözüm:
 
-``` python
+```python
 # isim[::-1]
 ll = [[1, 2], [3, 4], [5, 6, 7]]
 
